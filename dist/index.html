@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do List</title>
+    <title>TooDued</title>
 </head>
 <body>
     <header>
         <h1>TooDued</h1>
     </header>
     <main>
-        <div id="todo-group">
-            
+        <button id="add-todo-btn">add todo</button>
+        <div id="add-todo-modal">
+            <input type="text" id="add-todo-title">
+            <input type="text" id="add-todo-desc">
+            <input type="text" id="add-todo-date">
+            <input type="text" id="add-todo-priority">
+            <input type="text" id="add-todo-group">
+            <button id="add-todo-confirm">Add todo</button>
         </div>
+        <div id="add-group-modal">
+            <input type="text" id="add-group-title">
+            <input type="text" id="add-group-desc">
+            <button id="add-group-confirm">Add group</button>
+        </div>
+
+        <div id="todo-group">
+            <button id="add-group-btn">add group</button>
+        </div>
+
         <div id="todo-header">
 
         </div>
-        <button id="add-todo-btn">add todo</button>
+
         <div id="todo-list">
 
         </div>
